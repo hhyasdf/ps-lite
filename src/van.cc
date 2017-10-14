@@ -11,21 +11,30 @@
 #include "./network_utils.h"
 #include "./meta.pb.h"
 #include "./zmq_van.h"
+#include "./fmq_van.h"
 #include "./resender.h"
+#include "unistd.h"
+#include <stdio.h>
 namespace ps {
 
 // interval in second between to heartbeast signals. 0 means no heartbeat.
 // don't send heartbeast in default. because if the scheduler received a
 // heartbeart signal from a node before connected to that node, then it could be
 // problem.
-static const int kDefaultHeartbeatInterval = 0;
+const static int kDefaultHeartbeatInterval = 0;
 
 Van* Van::Create(const std::string& type) {
-  if (type == "zmq") {
-    return new ZMQVan();
-  } else {
-    LOG(FATAL) << "unsupported van type: " << type;
-    return nullptr;
+  //if (type == "zmq") {
+  //  return new ZMQVan();
+  //} else {
+  //  LOG(FATAL) << "unsupported van type: " << type;
+  //  return nullptr;
+  //}
+  int local = GetEnv("DMLC_LOCAL", 0);
+  if(local){
+    return new ZMQVan;
+  }else{
+    return new FMQVan;
   }
 }
 
@@ -58,6 +67,8 @@ void Van::Start() {
       CHECK(!interface.empty()) << "failed to get the interface";
     }
     int port = GetAvailablePort();
+
+
     const char* pstr = Environment::Get()->find("PORT");
     if (pstr) port = atoi(pstr);
     CHECK(!ip.empty()) << "failed to get ip";
@@ -77,7 +88,6 @@ void Van::Start() {
 
   // connect to the scheduler
   Connect(scheduler_);
-
   // for debug use
   if (Environment::Get()->find("PS_DROP_MSG")) {
     drop_rate_ = atoi(Environment::Get()->find("PS_DROP_MSG"));
@@ -85,7 +95,6 @@ void Van::Start() {
   // start receiver
   receiver_thread_ = std::unique_ptr<std::thread>(
       new std::thread(&Van::Receiving, this));
-
   if (!is_scheduler_) {
     // let the scheduler know myself
     Message msg;
@@ -95,11 +104,11 @@ void Van::Start() {
     msg.meta.timestamp = timestamp_++;
     Send(msg);
   }
+
   // wait until ready
   while (!ready_) {
     std::this_thread::sleep_for(std::chrono::milliseconds(1));
   }
-
   // resender
   if (Environment::Get()->find("PS_RESEND") && atoi(Environment::Get()->find("PS_RESEND")) != 0) {
     int timeout = 1000;
@@ -108,7 +117,6 @@ void Van::Start() {
     }
     resender_ = new Resender(timeout, 10, this);
   }
-
   if (!is_scheduler_) {
     // start heartbeat thread
     heartbeat_thread_ = std::unique_ptr<std::thread>(
@@ -140,8 +148,7 @@ int Van::Send(const Message& msg) {
 
 void Van::Receiving() {
   const char* heartbeat_timeout_val = Environment::Get()->find("PS_HEARTBEAT_TIMEOUT");
-  const int heartbeat_timeout
-      = heartbeat_timeout_val ? atoi(heartbeat_timeout_val) : kDefaultHeartbeatInterval;
+  const int heartbeat_timeout = heartbeat_timeout_val ? atoi(heartbeat_timeout_val) : kDefaultHeartbeatInterval;
   Meta nodes;  // for scheduler usage
   while (true) {
     Message msg;
@@ -163,7 +170,6 @@ void Van::Receiving() {
     }
     // duplicated message
     if (resender_ && resender_->AddIncomming(msg)) continue;
-
     if (!msg.meta.control.empty()) {
       // do some management
       auto& ctrl = msg.meta.control;
@@ -221,6 +227,7 @@ void Van::Receiving() {
 
         if (is_scheduler_) {
           time_t t = time(NULL);
+
           if (nodes.control.node.size() == num_nodes) {
             // sort the nodes according their ip and port,
             std::sort(nodes.control.node.begin(), nodes.control.node.end(),

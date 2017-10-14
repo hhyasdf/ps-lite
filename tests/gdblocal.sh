@@ -13,13 +13,16 @@ bin=$1
 shift
 arg="$@"
 
+#echo ${arg}
+
 # start the scheduler
 export DMLC_LOCAL=0
 export DMLC_PS_ROOT_URI='10.10.3.6'
+export DMLC_PS_ROOT_PORT=13542
 export DMLC_INTERFACE='ib0'
-export DMLC_PS_ROOT_PORT=13531
 export DMLC_ROLE='scheduler'
-${bin} ${arg} &
+#${bin} ${arg} &
+gdb ${bin} -x gdb.txt &
 
 sleep 3
 
@@ -27,16 +30,16 @@ sleep 3
 export DMLC_ROLE='server'
 for ((i=0; i<${DMLC_NUM_SERVER}; ++i)); do
     export HEAPPROFILE=./S${i}
-    ${bin} ${arg} &
+#    ${bin} ${arg} &
+    gdb ${bin} -x gdb.txt &
 done
-
-sleep 3
 
 # start workers
 export DMLC_ROLE='worker'
 for ((i=0; i<${DMLC_NUM_WORKER}; ++i)); do
     export HEAPPROFILE=./W${i}
-    ${bin} ${arg} &
+#    ${bin} ${arg} &
+    gdb ${bin} -x gdb.txt &
 done
 
 wait

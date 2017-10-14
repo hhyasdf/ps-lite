@@ -110,7 +110,7 @@ class Van {
   /** thread function for heartbeat */
   void Heartbeat();
   /** whether it is ready for sending */
-  std::atomic<bool> ready_{false};
+  volatile std::atomic<bool> ready_{false};
   std::atomic<size_t> send_bytes_{0};
   size_t recv_bytes_ = 0;
   int num_servers_ = 0;

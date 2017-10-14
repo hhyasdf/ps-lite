@@ -1,0 +1,555 @@
+File: src/van.cc, line: 85
+File: src/van.cc, line: 93
+File: src/van.cc, line: 101
+File: src/van.cc, line: 112
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 45, node_id 2147483647, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 195
+File: src/van.cc, line: 204
+File: src/van.cc, line: 229
+File: src/van.cc, line: 248
+nodes.control.node.size(): 1, num_nodes: 4
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 45, node_id 2147483647, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 195
+File: src/van.cc, line: 204
+File: src/van.cc, line: 229
+File: src/van.cc, line: 248
+nodes.control.node.size(): 2, num_nodes: 4
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 45, node_id 2147483647, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 195
+File: src/van.cc, line: 204
+File: src/van.cc, line: 229
+File: src/van.cc, line: 248
+nodes.control.node.size(): 3, num_nodes: 4
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 45, node_id 2147483647, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 195
+File: src/van.cc, line: 204
+File: src/van.cc, line: 229
+File: src/van.cc, line: 248
+nodes.control.node.size(): 4, num_nodes: 4
+File: src/van.cc, line: 253
+File: src/van.cc, line: 261
+File: src/van.cc, line: 261
+File: src/van.cc, line: 261
+File: src/van.cc, line: 261
+File: src/van.cc, line: 273
+send a message: length 132, flag 0, node_id 0
+send a message: length 132, flag 0, node_id 0
+send a message: length 132, flag 0, node_id 0
+send a message: length 132, flag 0, node_id 0
+File: src/van.cc, line: 283
+File: src/van.cc, line: 286
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/van.cc, line: 117
+File: src/van.cc, line: 126
+send a message: length 20, flag 0, node_id 0
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 326
+File: src/van.cc, line: 328
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 11, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 326
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 9, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 326
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 8, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 326
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 10, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 326
+File: src/van.cc, line: 336
+send a message: length 20, flag 0, node_id 0
+send a message: length 20, flag 0, node_id 0
+send a message: length 20, flag 0, node_id 0
+send a message: length 20, flag 0, node_id 0
+send a message: length 20, flag 0, node_id 0
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 9, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 326
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 11, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 326
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 8, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 326
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 348
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 10, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 326
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+send a message: length 20, flag 0, node_id 0
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 326
+File: src/van.cc, line: 336
+send a message: length 20, flag 0, node_id 0
+send a message: length 20, flag 0, node_id 0
+send a message: length 20, flag 0, node_id 0
+send a message: length 20, flag 0, node_id 0
+send a message: length 20, flag 0, node_id 0
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 348
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 48
+send a message: length 16, flag 0, node_id 0
+File: src/van.cc, line: 140
+File: src/./fmq_van.h, line: 199
+recv a message: length 16, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: srcstart ip: 10.10.3.6, port: 48424
+File: src/van.cc, line: 85
+File: src/van.cc, line: 93
+File: src/van.cc, line: 101
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+send a message: length 45, flag 0, node_id 0
+File: src/van.cc, line: 112
+File: src/./fmq_van.h, line: 199
+recv a message: length 132, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 195
+File: src/van.cc, line: 229
+File: src/van.cc, line: 236
+File: src/van.cc, line: 313
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/van.cc, line: 320
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/van.cc, line: 117
+File: src/van.cc, line: 126
+send a message: length 20, flag 0, node_id 0
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 348
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+send a message: length 20, flag 0, node_id 0
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 348
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 48
+send a message: length 16, flag 0, node_id 0
+File: src/van.cc, line: 140
+File: src/./fmq_van.h, line: 199
+recv a message: length 16, node_id 8, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 190
+File: src/van.cc, line: 142
+File: src/van.cc, line: 144
+File: src/./fmq_van.h, line: 51
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 127
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 129
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 129
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 129
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 129
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 132
+File: src/./fmq_van.h, line: 58
+File: src/./fmq_van.h, line: 63
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/./fmq_van.h, line: 65
+File: src/./fmq_van.h, line: 63
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/./fmq_van.h, linstart ip: 10.10.3.6, port: 50441
+File: src/van.cc, line: 85
+File: src/van.cc, line: 93
+File: src/van.cc, line: 101
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+send a message: length 45, flag 0, node_id 0
+File: src/van.cc, line: 112
+File: src/./fmq_van.h, line: 199
+recv a message: length 132, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 195
+File: src/van.cc, line: 229
+File: src/van.cc, line: 236
+File: src/van.cc, line: 313
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/van.cc, line: 320
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/van.cc, line: 117
+File: src/van.cc, line: 126
+send a message: length 20, flag 0, node_id 0
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 348
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+send a message: length 20, flag 0, node_id 0
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 348
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 48
+send a message: length 16, flag 0, node_id 0
+File: src/van.cc, line: 140
+File: src/./fmq_van.h, line: 199
+recv a message: length 16, node_id 11, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 190
+File: src/van.cc, line: 142
+File: src/van.cc, line: 144
+File: src/./fmq_van.h, line: 51
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 127
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 129
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 129
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 129
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 129
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 132
+File: src/./fmq_van.h, line: 58
+File: src/./fmq_van.h, line: 63
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/./fmq_van.h, line: 65
+File: src/./fmq_van.h, line: 63
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/./fmq_van.h, listart ip: 10.10.3.6, port: 42004
+File: src/van.cc, line: 85
+File: src/van.cc, line: 93
+File: src/van.cc, line: 101
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+send a message: length 45, flag 0, node_id 0
+File: src/van.cc, line: 112
+File: src/./fmq_van.h, line: 199
+recv a message: length 132, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 195
+File: src/van.cc, line: 229
+File: src/van.cc, line: 236
+File: src/van.cc, line: 313
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/van.cc, line: 320
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/van.cc, line: 117
+File: src/van.cc, line: 126
+send a message: length 20, flag 0, node_id 0
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 348
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+send a message: length 20, flag 0, node_id 0
+File: src/./fmq_van.h, line: 199
+recv a message: length 20, node_id 1, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 324
+File: src/van.cc, line: 348
+File: src/van.cc, line: 164
+File: src/./fmq_van.h, line: 190
+File: src/./fmq_van.h, line: 48
+send a message: length 16, flag 0, node_id 0
+File: src/van.cc, line: 140
+File: src/./fmq_van.h, line: 199
+recv a message: length 16, node_id 9, flag: 0
+File: src/./fmq_van.h, line: 208
+File: src/./fmq_van.h, line: 213
+File: src/./fmq_van.h, line: 221
+File: src/./fmq_van.h, line: 243
+File: src/van.cc, line: 176
+File: src/van.cc, line: 186
+File: src/van.cc, line: 190
+File: src/van.cc, line: 142
+File: src/van.cc, line: 144
+File: src/./fmq_van.h, line: 51
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 127
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 129
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 129
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 129
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 129
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/receiver.cpp, line: 132
+File: src/./fmq_van.h, line: 58
+File: src/./fmq_van.h, line: 63
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/./fmq_van.h, line: 65
+File: src/./fmq_van.h, line: 63
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/./fmq_van.h, linne: 65
+File: src/./fmq_van.h, line: 63
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/./fmq_van.h, line: 65
+File: src/./fmq_van.h, line: 63
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/./fmq_van.h, line: 65
+e: 65
+File: src/./fmq_van.h, line: 63
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/./fmq_van.h, line: 65
+File: src/./fmq_van.h, line: 63
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/./fmq_van.h, line: 65
+e: 65
+File: src/./fmq_van.h, line: 63
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/./fmq_van.h, line: 65
+File: src/./fmq_van.h, line: 63
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 243
+File: /home/uniquesc/rdma/hhy_mxnet_rdma/ps-lite/rdma_socket/src/rdma_socket.cpp, line: 245
+File: src/./fmq_van.h, line: 65
+File: src/van.cc, line: 85
+error: rdma_listen(socket_->id, backlog) failed (returned non-zero).
+Cannot assign requested address
+start ip: 10.10.3.6, port: 49951
+File: src/van.cc, line: 85
+event: 8
+start ip: 10.10.3.6, port: 60580
+File: src/van.cc, line: 85
+event: 8

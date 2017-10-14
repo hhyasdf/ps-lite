@@ -10,21 +10,33 @@ PROTOBUF = ${DEPS_PATH}/include/google/protobuf/message.h
 ${PROTOBUF}:
 	$(eval FILE=protobuf-2.5.0.tar.gz)
 	$(eval DIR=protobuf-2.5.0)
-	rm -rf $(FILE) $(DIR)
-	$(WGET) $(URL)/$(FILE) && tar --no-same-owner -zxf $(FILE)
+#	rm -rf $(FILE) $(DIR)
+#	$(WGET) $(URL)/$(FILE) && 
+	tar --no-same-owner -zxf $(FILE)
 	cd $(DIR) && export CFLAGS=-fPIC && export CXXFLAGS=-fPIC && ./configure -prefix=$(DEPS_PATH) && $(MAKE) && $(MAKE) install
-	rm -rf $(FILE) $(DIR)
+#	rm -rf $(FILE) $(DIR)
 
 # zmq
 ZMQ = ${DEPS_PATH}/include/zmq.h
 
 ${ZMQ}:
-	$(eval FILE=zeromq-4.1.4.tar.gz)
-	$(eval DIR=zeromq-4.1.4)
-	rm -rf $(FILE) $(DIR)
-	$(WGET) $(URL)/$(FILE) && tar --no-same-owner -zxf $(FILE)
+	$(eval FILE=zeromq-4.2.2.tar.gz)
+	$(eval DIR=zeromq-4.2.2)
+#	rm -rf $(FILE) $(DIR)
+#	$(WGET) https://github.com/zeromq/libzmq/releases/download/v4.2.2/$(FILE) && 
+	tar --no-same-owner -zxf $(FILE)
 	cd $(DIR) && export CFLAGS=-fPIC && export CXXFLAGS=-fPIC && ./configure -prefix=$(DEPS_PATH) --with-libsodium=no --with-libgssapi_krb5=no && $(MAKE) && $(MAKE) install
-	rm -rf $(FILE) $(DIR)
+#	rm -rf $(FILE) $(DIR)
+
+#fmq
+FMQ = ${DEPS_PATH}/include/rdma_socket.h
+${FMQ}:
+	$(eval DIR=rdma_socket)
+	git clone https://github.com/hhyasdf/rdma_socket_mq.git ./$(DIR)
+	cd $(DIR)&& export CFLAGS=-fPIC && export CXXFLAGS=-fPIC && cmake ./ && make &&\
+	cp include/*.h ${DEPS_PATH}/include &&\
+	cp lib/libfmq.so ${DEPS_PATH}/lib/ &&\
+	cp lib/libfmq.a ${DEPS_PATH}/lib/ 
 
 # lz4
 LZ4 = ${DEPS_PATH}/include/lz4.h
