@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/dmlc/ps-lite.svg?branch=master)](https://travis-ci.org/dmlc/ps-lite)
 [![GitHub license](http://dmlc.github.io/img/apache2.svg)](./LICENSE)
 
-(This is a RDMA Version)
+(This is a RDMA version)
 
 A light and efficient implementation of the parameter server
 framework. It provides clean yet powerful APIs. For example, a worker node can
